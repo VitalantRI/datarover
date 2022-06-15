@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Package installation
+*.egg-info/
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Instance-specific and sensitive filles
+config.py
+config.json
+config.ttims.json
+config.prod.json
+config.warpsurvey.json
+db.sqlite
+appdata/db.sqlite

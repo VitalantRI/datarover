@@ -1,0 +1,29 @@
+{
+    "DEBUG": true,
+    "ENV": "development",
+    "TESTING": true,
+
+    "APP_NAME": "Data Rover",
+
+    "SECRET_KEY": "somesecretstring",
+    "SECURITY_PASSWORD_SALT": "somesecretstring",
+    "SQLALCHEMY_DATABASE_URI": "sqlite:///../appdata/db.sqlite",
+    
+    "ADMIN_EMAIL": "user@domain.com",
+    "ADMIN_PASS": "admin",
+
+    "SERVER_URL": "server.domain.com",
+    "DATABASE_NAME": "dbname",
+    "WINDOWS_AUTHENTICATION": false,
+    "DBO_SCHEMA": "dbo",
+    "DB_USERNAME": "username",
+    "DB_PASSWORD": "password",
+    "ODBC_DRIVER": "{ODBC Driver 17 for SQL Server}",
+
+    "PARTIAL_VARIABLES": ["col1", "col2"],
+    "ORDERING": ["col1", "col2"],
+    "BOTH_SEARCH": [],
+    "SHOW_KEY": false,
+    "PREVIEW_NUM": 1000,
+    "SESSION_COOKIE_SECURE": true
+}
